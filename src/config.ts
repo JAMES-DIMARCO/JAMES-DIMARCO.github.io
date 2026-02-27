@@ -1,91 +1,78 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "James DiMarco",
+  title: "sophomore Engineering student",
+  description: "Portfolio website of James DiMarco",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "jamesodimarco@gmail.com",
+    linkedin: "www.linkedin.com/in/james-dimarco-2a5678322",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a computer engineering student at Rose-Hulman Institute of Technology, eager to apply my skills in a related field.",
+  skills: ["C", "C++", "Java", "Python", "Assembly", "MATLAB"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "IR Signal Flipper",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Designed and implemented an embedded IR signal capture and replay system using a PIC18 microcontroller. The system decodes incoming IR pulses using hardware timers and interrupts, stores timing data, and reproduces signals with precise PWM control. Optimized for low-power operation using sleep modes and peripheral configuration.",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Embedded C", "Pic18", "Timers and PWM", "Interrupts", "Low-Power Design"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Raspberry Pi Instagram Post Counter Display",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
+        "Used a RaspberryPi and Python code to update a large digital display by incrementing the counter on specific events",
       skills: ["React", "Node.js", "AWS"],
     },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+    // {
+    //   name: "ExtensionKit",
+    //   description:
+    //     "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+    //   link: "https://extensionkit.io/?ref=devportfolio",
+    //   skills: ["React", "Node.js", "AWS"],
+    // },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Avant Garde College-Prep Services",
+      title: "Academic Math Coach",
+      dateRange: "March 2024 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Leverage my communication skills to explain complex math concepts so that students of varying age can understand and apply lessons",
+        "Creat structured plans to address individual challenges, reinforcing problem-solving and accountability",
       ],
     },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    // {
+    //   company: "Startup Inc",
+    //   title: "Full Stack Developer",
+    //   dateRange: "Jun 2020 - Dec 2021",
+    //   bullets: [
+    //     "Built and launched MVP product from scratch using React and Node.js",
+    //     "Implemented CI/CD pipeline reducing deployment time by 60%",
+    //     "Collaborated with product team to define technical requirements",
+    //   ],
+    // },
+    // {
+    //   company: "Digital Agency",
+    //   title: "Frontend Developer",
+    //   dateRange: "Aug 2018 - May 2020",
+    //   bullets: [
+    //     "Developed responsive web applications for 20+ clients",
+    //     "Improved site performance scores by 35% on average",
+    //     "Introduced modern JavaScript frameworks to legacy codebases",
+    //   ],
+    // },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Rose-Hulman Institue of Technology",
+      degree: "Bachelor of Science in Computer Engineering",
+      dateRange: "2024 - 2028",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
+        "3.69 GPA",
         "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Rose-Hulman Merit Scholar",
+        "Alpa Tau Omega Fraternity Merit Scholar",
       ],
     },
   ],
