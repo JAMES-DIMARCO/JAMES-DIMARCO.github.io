@@ -5,7 +5,7 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "jamesodimarco@gmail.com",
-    linkedin: "www.linkedin.com/in/james-dimarco-2a5678322",
+    linkedin: "https://www.linkedin.com/in/james-dimarco-2a5678322",
   },
   aboutMe:
     "I'm a computer engineering student at Rose-Hulman Institute of Technology, eager to apply my skills in a related field.",
