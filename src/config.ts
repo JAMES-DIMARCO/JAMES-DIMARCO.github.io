@@ -25,6 +25,7 @@ export const siteConfig = {
     name: "IR Signal Flipper",
     description:
       "Designed and implemented an interrupt-driven IR signal capture and replay system using a PIC18 microcontroller. Measured incoming pulse timings via hardware timers and stored waveform data for accurate signal reproduction using PWM modules. Configured peripherals directly from datasheet specifications and optimized power consumption using sleep modes and peripheral management.",
+    link: "/ir-flipper",
     skills: [
       "Embedded C",
       "PIC18",
