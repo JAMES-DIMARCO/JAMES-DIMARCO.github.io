@@ -6,40 +6,80 @@ import "../styles/global.css";
 
 <Header />
 
-<main style="max-width: 800px; margin: 60px auto; padding: 20px;">
-  <h1>IR Signal Capture & Replay System</h1>
+<main style="max-width: 900px; margin: 80px auto; padding: 20px;">
 
-  <p>
-    Designed and implemented an interrupt-driven IR signal capture and replay
-    system using a PIC18 microcontroller. The system measures pulse timing
-    using hardware timers and reproduces signals using PWM modules.
+  <h1 style="font-size: 2rem; margin-bottom: 10px;">
+    IR Signal Capture & Replay System
+  </h1>
+
+  <p style="font-size: 1.1rem; color: #555; margin-bottom: 40px;">
+    Interrupt-driven embedded system built on a PIC18 microcontroller for 
+    capturing, decoding, and reproducing infrared remote signals with precise timing control.
   </p>
 
-  <h2>Hardware Setup</h2>
-  <img
-    src="/images/ir-setup.jpg"
-    alt="IR hardware setup"
-    style="max-width: 600px; width: 100%; border-radius: 10px; margin-bottom: 20px;"
-  />
+  <!-- Hardware Section -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="margin-bottom: 15px;">Hardware Implementation</h2>
 
-  <h2>Technical Highlights</h2>
-  <ul>
-    <li>Interrupt-driven signal capture</li>
-    <li>Timer configuration and prescaler calculation</li>
-    <li>PWM-based signal reproduction</li>
-    <li>Low-power sleep mode optimization</li>
-    <li>Datasheet-driven peripheral configuration</li>
-  </ul>
+    <img
+      src="/images/ir-setup.jpg"
+      alt="IR hardware setup"
+      style="width: 100%; max-width: 750px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); margin-bottom: 20px;"
+    />
 
-  <p>
+    <p style="color: #555;">
+      Breadboard implementation featuring PIC18 microcontroller, IR receiver module,
+      discrete output indicators, and signal routing for timing analysis.
+    </p>
+  </section>
+
+  <!-- Technical Highlights Section -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="margin-bottom: 20px;">Technical Highlights</h2>
+
+    <div style="display: grid; gap: 15px;">
+      <div style="background: #f9fafb; padding: 15px 20px; border-radius: 10px;">
+        Interrupt-driven signal capture using hardware timers
+      </div>
+
+      <div style="background: #f9fafb; padding: 15px 20px; border-radius: 10px;">
+        Timer configuration and prescaler calculation for precise pulse measurement
+      </div>
+
+      <div style="background: #f9fafb; padding: 15px 20px; border-radius: 10px;">
+        PWM-based signal reproduction matching captured waveform timing
+      </div>
+
+      <div style="background: #f9fafb; padding: 15px 20px; border-radius: 10px;">
+        Low-power sleep mode optimization and peripheral shutdown strategy
+      </div>
+
+      <div style="background: #f9fafb; padding: 15px 20px; border-radius: 10px;">
+        Datasheet-driven peripheral configuration and hardware validation
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Button -->
+  <div style="margin-top: 40px;">
     <a
       href="https://github.com/JAMES-DIMARCO/JAMES-DIMARCO.github.io"
       target="_blank"
       rel="noopener noreferrer"
+      style="
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #1d4ed8;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 500;
+      "
     >
-      View GitHub Repository
+      View Source Code
     </a>
-  </p>
+  </div>
+
 </main>
 
 <Footer />
