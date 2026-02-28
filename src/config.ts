@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "James DiMarco",
-  title: "sophomore Engineering student",
-  description: "Portfolio website of James DiMarco",
+  title: "Computer Engineering student",
+  description: "Embedded systems and hardware-focused engineering portfolio",
   accentColor: "#1d4ed8",
   social: {
     email: "jamesodimarco@gmail.com",
@@ -9,20 +9,29 @@ export const siteConfig = {
   },
   aboutMe:
     "I'm a computer engineering student at Rose-Hulman Institute of Technology, eager to apply my skills in a related field.",
-  skills: ["C", "C++", "Java", "Python", "Assembly", "MATLAB"],
+  skills: [
+  "Embedded C",
+  "C++",
+  "PIC18 Microcontrollers",
+  "Assembly (Microcontroller)",
+  "Python",
+  "MATLAB",
+  "Java",
+  "Interrupts & Timers",
+  "PWM & Signal Timing"
+],
   projects: [
     {
       name: "IR Signal Flipper",
       description:
-        "Designed and implemented an embedded IR signal capture and replay system using a PIC18 microcontroller. The system decodes incoming IR pulses using hardware timers and interrupts, stores timing data, and reproduces signals with precise PWM control. Optimized for low-power operation using sleep modes and peripheral configuration.",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["Embedded C", "Pic18", "Timers and PWM", "Interrupts", "Low-Power Design"],
-    },
+        "Designed and implemented an interrupt-driven IR signal capture and replay system using a PIC18 microcontroller. Measured incoming pulse timings via hardware timers and stored waveform data for accurate signal reproduction using PWM modules. Configured peripherals directly from datasheet specifications and optimized power consumption using sleep modes and peripheral management.",
+      // link: "https://aidevroundup.com/?ref=devportfolio",
+      skills: ["Embedded C", "PIC18", "Timers", "PWM", "Interrupt-Driven Design", "Low-Power Optimization"]
     {
       name: "Raspberry Pi Instagram Post Counter Display",
       description:
-        "Used a RaspberryPi and Python code to update a large digital display by incrementing the counter on specific events",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed a RaspberryPi event-driven system that tracks sent posts in real time. Implemented python scripts to retrieve and process data, and update a large digital counter display",
+      skills: ["Python", "Raspberry Pi", "GPIO", "Hardware Interfacing"],
     },
     // {
     //   name: "ExtensionKit",
@@ -39,7 +48,7 @@ export const siteConfig = {
       dateRange: "March 2024 - Present",
       bullets: [
         "Leverage my communication skills to explain complex math concepts so that students of varying age can understand and apply lessons",
-        "Creat structured plans to address individual challenges, reinforcing problem-solving and accountability",
+        "Develop structured plans to address individual learning needs, reinforcing problem-solving and accountability",
       ],
     },
     // {
@@ -65,14 +74,14 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "Rose-Hulman Institue of Technology",
+      school: "Rose-Hulman Institute of Technology",
       degree: "Bachelor of Science in Computer Engineering",
       dateRange: "2024 - 2028",
       achievements: [
         "3.69 GPA",
         "Dean's List all semesters",
         "Rose-Hulman Merit Scholar",
-        "Alpa Tau Omega Fraternity Merit Scholar",
+        "Alpha Tau Omega Fraternity Merit Scholar",
       ],
     },
   ],
