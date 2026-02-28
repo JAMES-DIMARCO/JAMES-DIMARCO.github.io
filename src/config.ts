@@ -22,12 +22,19 @@ export const siteConfig = {
 ],
   projects: [
     {
-      name: "IR Signal Flipper",
-      description:
-        "Designed and implemented an interrupt-driven IR signal capture and replay system using a PIC18 microcontroller. Measured incoming pulse timings via hardware timers and stored waveform data for accurate signal reproduction using PWM modules. Configured peripherals directly from datasheet specifications and optimized power consumption using sleep modes and peripheral management.",
-      // link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["Embedded C", "PIC18", "Timers", "PWM", "Interrupt-Driven Design", "Low-Power Optimization"]
-    {
+    name: "IR Signal Flipper",
+    description:
+      "Designed and implemented an interrupt-driven IR signal capture and replay system using a PIC18 microcontroller. Measured incoming pulse timings via hardware timers and stored waveform data for accurate signal reproduction using PWM modules. Configured peripherals directly from datasheet specifications and optimized power consumption using sleep modes and peripheral management.",
+    skills: [
+      "Embedded C",
+      "PIC18",
+      "Timers",
+      "PWM",
+      "Interrupt-Driven Design",
+      "Low-Power Optimization",
+    ],
+  },
+{
       name: "Raspberry Pi Instagram Post Counter Display",
       description:
         "Developed a RaspberryPi event-driven system that tracks sent posts in real time. Implemented python scripts to retrieve and process data, and update a large digital counter display",
