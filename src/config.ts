@@ -86,7 +86,7 @@ export const siteConfig = {
       degree: "Bachelor of Science in Computer Engineering",
       dateRange: "2024 - 2028",
       achievements: [
-        "3.69 GPA",
+        "3.70 GPA",
         "Dean's List all semesters",
         "Rose-Hulman Merit Scholar",
         "Alpha Tau Omega Fraternity Merit Scholar",
