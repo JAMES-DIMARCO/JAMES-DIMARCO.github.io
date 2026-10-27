@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "James DiMarco",
-  title: "Computer Engineering student",
+  title: "Computer Engineering Student Focused on Embedded Systems",
   description: "Embedded systems and hardware-focused engineering portfolio",
   accentColor: "#1d4ed8",
   social: {
@@ -8,7 +8,7 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/james-dimarco-2a5678322",
   },
   aboutMe:
-    "I'm a computer engineering student at Rose-Hulman Institute of Technology, eager to apply my skills in a related field.",
+    "I'm a computer engineering student at Rose-Hulman Institute of Technology focused on embedded systems and hardware-software integration. I enjoy building things from the board up, from designing a custom STM32 PCB for a long-range LoRa telemetry system to writing interrupt-driven firmware on PIC18 microcontrollers. I also lead the Propulsion Controls and Modeling team for Rose-Hulman's EcoCAR Innovation Challenge, developing Simulink controls for a hybrid-electric vehicle. I'm currently seeking a software or embedded systems engineering internship.",
   skills: [
   "Embedded C",
   "C++",
