@@ -13,14 +13,33 @@ export const siteConfig = {
   "Embedded C",
   "C++",
   "PIC18 Microcontrollers",
-  "Assembly (Microcontroller)",
+  "STM32",
+  "ESP32",
+  "Assembly (PIC18, RISC-V)",
   "Python",
   "MATLAB",
+  "Simulink",
   "Java",
+  "Verilog",
+  "FPGA Development",
+  "PCB Design",
   "Interrupts & Timers",
   "PWM & Signal Timing"
 ],
   projects: [
+    {
+    name: "RF Telemetry System",
+    description:
+      "Designed a custom STM32 PCB and wrote embedded C firmware to integrate GPS and IMU sensors, transmitting live telemetry up to 3 miles over a LoRa RF link. Built an ESP32 ground station receiver and a Python dashboard to display the device's live location and orientation.",
+    skills: [
+      "Embedded C",
+      "STM32",
+      "ESP32",
+      "LoRa RF",
+      "PCB Design",
+      "Python",
+    ],
+  },
     {
     name: "IR Signal Flipper",
     description:
@@ -50,6 +69,16 @@ export const siteConfig = {
     // },
   ],
   experience: [
+    {
+      company: "EcoCAR Innovation Challenge | Rose-Hulman Institute of Technology",
+      title: "Propulsion Controls and Modeling Team Lead",
+      dateRange: "August 2026 - Present",
+      bullets: [
+        "Lead 10 engineering students in designing a Simulink torque split and extending a stock vehicle controller in a hybrid-electric vehicle for in-vehicle testing",
+        "Collaborate with hardware integration and battery teams to model their subsystems and integrate them fully into the vehicle",
+        "Oversee virtual vehicle simulation and baseline testing efforts to help the team evaluate vehicle performance and prepare for future development",
+      ],
+    },
     {
       company: "Avant Garde College-Prep Services",
       title: "Academic Math Coach",
@@ -86,7 +115,7 @@ export const siteConfig = {
       degree: "Bachelor of Science in Computer Engineering",
       dateRange: "2024 - 2028",
       achievements: [
-        "3.70 GPA",
+        "3.67 GPA",
         "Dean's List all semesters",
         "Rose-Hulman Merit Scholar",
         "Alpha Tau Omega Fraternity Merit Scholar",
