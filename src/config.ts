@@ -112,6 +112,14 @@ export const siteConfig = {
   education: [
     {
       school: "Rose-Hulman Institute of Technology",
+      degree: "Master of Engineering Management",
+      dateRange: "2024 - 2028",
+      achievements: [
+        "3.75 GPA",
+      ],
+    },
+    {
+      school: "Rose-Hulman Institute of Technology",
       degree: "Bachelor of Science in Computer Engineering",
       dateRange: "2024 - 2028",
       achievements: [
